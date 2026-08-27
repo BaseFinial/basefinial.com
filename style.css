@@ -24,12 +24,13 @@ body {
 }
 
 .hero {
-    min-height: 92vh;
-    background:
+        min-height: 92vh;
+    
         background-image: url("CS_Capsule_Art_3840x1240.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    
     display: flex;
     flex-direction: column
 }
