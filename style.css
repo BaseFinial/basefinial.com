@@ -26,9 +26,10 @@ body {
 .hero {
     min-height: 92vh;
     background:
-        radial-gradient(circle at 75% 25%, rgba(154,62,46,.16), transparent 28%),
-        radial-gradient(circle at 20% 80%, rgba(45,72,46,.13), transparent 32%),
-        var(--paper);
+        background-image: url("CS_Capsule_Art_3840x1240.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     display: flex;
     flex-direction: column
 }
