@@ -3,8 +3,8 @@
     src: url("Gf_handmade-Regular.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-}    
-    
+}
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap');
 
 :root {
@@ -31,16 +31,21 @@ body {
 }
 
 .hero {
-        min-height: 92vh;
-    
-        background-image: url("CS_Capsule_Art_3840x1240.png");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-    
+    min-height: 92vh;
+
+    background-image: url("CS_Capsule_Art_3840x1240.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     display: flex;
     flex-direction: column
 }
+
+
+/* =========================
+   TOP NAVIGATION
+   ========================= */
 
 nav {
     width: min(1180px, calc(100% - 48px));
@@ -49,7 +54,7 @@ nav {
     border-bottom: 1px solid var(--line);
     display: flex;
     justify-content: space-between;
-    font-size: 12px;
+    font-size: 18px;
     letter-spacing: .16em
 }
 
@@ -58,6 +63,11 @@ nav a {
     text-decoration: none
 }
 
+
+/* =========================
+   HERO CONTENT
+   ========================= */
+
 .hero-content {
     width: min(1180px, calc(100% - 48px));
     margin: auto;
@@ -65,11 +75,11 @@ nav a {
 }
 
 .eyebrow {
-    font-size: 11px;
+    font-size: 18px;
     letter-spacing: .2em;
     font-weight: 700;
-    color: var(--accent);
-    margin: 0 0 18px
+    color: #eee9dc;
+    margin: 0 0 22px
 }
 
 h1,
@@ -79,7 +89,7 @@ h2 {
 }
 
 h1 {
-    font-size: clamp(72px, 13vw, 170px);
+    font-size: clamp(90px, 15vw, 200px);
     line-height: .82;
     letter-spacing: -.055em;
     margin: 0
@@ -93,19 +103,18 @@ h2 {
     margin: 0 0 28px
 }
 
-.tagline {
-    font-size: 18px;
-    color: var(--muted);
-    margin: 34px 0
-}
+
+/* =========================
+   WISHLIST BUTTON
+   ========================= */
 
 .button {
     display: inline-block;
     background: var(--ink);
     color: var(--paper);
-    padding: 15px 21px;
+    padding: 20px 30px;
     text-decoration: none;
-    font-size: 11px;
+    font-size: 17px;
     font-weight: 700;
     letter-spacing: .13em
 }
@@ -113,6 +122,11 @@ h2 {
 .button:hover {
     background: var(--accent)
 }
+
+
+/* =========================
+   SECTIONS
+   ========================= */
 
 section {
     border-top: 1px solid var(--line);
@@ -151,9 +165,18 @@ section {
 }
 
 
+/* =========================
+   STUDIO
+   ========================= */
+
 .studio {
     background: #ded8ca
 }
+
+
+/* =========================
+   FOOTER
+   ========================= */
 
 footer {
     width: min(1180px, calc(100% - 48px));
@@ -163,9 +186,14 @@ footer {
     display: flex;
     justify-content: space-between;
     color: var(--muted);
-    font-size: 10px;
+    font-size: 16px;
     letter-spacing: .12em
 }
+
+
+/* =========================
+   MOBILE
+   ========================= */
 
 @media(max-width:700px) {
 
@@ -181,5 +209,18 @@ footer {
     footer {
         flex-direction: column;
         gap: 15px
+    }
+
+    nav {
+        font-size: 15px
+    }
+
+    .eyebrow {
+        font-size: 15px
+    }
+
+    .button {
+        font-size: 15px;
+        padding: 17px 24px
     }
 }
