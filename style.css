@@ -11,6 +11,8 @@
 :root {
     --dark: #422e21;
     --dark-2: #342319;
+    --dark-3: #0a0806;
+
 
     --light: #6b4d38;
     --light-2: #755640;
@@ -64,7 +66,7 @@ body {
     display: flex;
     flex-direction: column;
 
-    color: var(#0a0806);
+    color: var(--dark-3);
 }
 
 
@@ -92,7 +94,7 @@ nav {
 nav strong {
     font-size: 38px;
     letter-spacing: .16em;
-    color: var(#0a0806);
+    color: var(--dark-3);
 }
 
 
@@ -102,7 +104,7 @@ nav a {
     position: absolute;
     right: 0;
 
-    color: var(#0a0806);
+    color: var(--dark-3);
     text-decoration: none;
 
     font-size: 18px;
