@@ -27,7 +27,7 @@ body {
     margin: 0;
     background: var(--paper);
     color: var(--ink);
-    font-family: "Gf_handmade", sans-serif
+    font-family: "DM Sans", sans-serif;
 }
 
 .hero {
