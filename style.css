@@ -9,10 +9,10 @@
 
 :root {
     --paper: #422e21;
-    --ink: #eee9dc;
-    --muted: #2b1f17;
+    --ink: #2b1f17;
+    --muted: #c7654d;
     --line: #2b1f17;
-    --accent: #c7654d
+    --accent: #c7654d;
 }
 
 * {
