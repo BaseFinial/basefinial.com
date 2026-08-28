@@ -113,8 +113,8 @@ h2 {
     align-items: center;
     justify-content: center;
 
-    width: 1000px;
-    height: 1000px;
+    width: 400px;
+    height: 110px;
 
     background-image: url("WishlistButton.png");
     background-size: contain;
@@ -133,7 +133,7 @@ h2 {
 
 .button:hover {
     background-color: transparent;
-    transform: scale(1.03);
+    transform: scale(1.05);
 }
 
 
