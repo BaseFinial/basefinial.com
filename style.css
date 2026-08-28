@@ -336,6 +336,7 @@ section h2 {
 
 main > section:not(.studio) {
     background: var(--light);
+    align-items: center;
 }
 
 
