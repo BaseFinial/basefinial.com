@@ -350,14 +350,14 @@ section h2 {
 /* Studio heading */
 
 .studio h2 {
-    color: var(--accent);
+    color: var(--cream);
 }
 
 
 /* Studio eyebrow */
 
 .studio .eyebrow {
-    color: var(--cream);
+    color: var(--accent);
 }
 
 
