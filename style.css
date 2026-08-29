@@ -44,7 +44,12 @@ html {
 
 body {
     margin: 0;
-    background: var(--dark);
+    background-color: #422e21;
+    background-image: url("Background_DarkBrown.png");
+    background-size: 1000px 1000px;
+    background-position: center;
+    background-repeat: repeat;
+
     color: var(--cream);
     font-family: "Gf_handmade", sans-serif;
 }
