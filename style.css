@@ -386,25 +386,47 @@ main > section:not(.studio) {
     align-items: center;
 }
 /* =========================
-   CONTACT — SMALL
+   CONTACT SECTION
    ========================= */
+
+.contact {
+    text-align: center;
+}
+
+
+/* CONTACT */
+
+.contact .eyebrow {
+    font-size: 28px;
+    color: var(--accent);
+    margin: 0 0 22px;
+}
+
+
+/* CONTACT DESCRIPTION */
 
 .contact h2 {
     font-size: 28px;
     line-height: 1.3;
-    max-width: 650px;
-    margin: 0 0 25px;
+
+    max-width: 900px;
+
+    margin: 0 auto 25px;
+
+    color: var(--cream);
 }
 
-.contact .eyebrow {
-    font-size: 28px;
-}
+
+/* EMAIL */
 
 .contact .body {
-    font-size: 28px;
-}
+    max-width: none;
 
-.contact .body {
+    margin: 0 auto;
+
+    font-size: 28px;
+
+    color: var(--ink);
     text-align: center;
 }
 
