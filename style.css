@@ -357,7 +357,14 @@ section h2 {
    ========================= */
 
 main > section:not(.studio) {
-    background: var(--light);
+   
+    background-color: #422e21;
+    background-image: url("Background_LighterBrown.png");
+    background-size: 1000px 1000px;
+    background-position: center;
+    background-repeat: repeat;
+    color: var(--cream);
+    
     align-items: center;
 }
 
