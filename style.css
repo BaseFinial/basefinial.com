@@ -45,7 +45,7 @@ html {
 body {
     margin: 0;
     background-color: #422e21;
-    background-image: url("Background_LighterBrown.png");
+    background-image: url("Background_DarkBrown.png");
     background-size: 1000px 1000px;
     background-position: center;
     background-repeat: repeat;
@@ -84,7 +84,7 @@ nav {
     margin: 0 auto;
     padding: 28px 0;
 
-    border-bottom: 1px solid rgba(43, 31, 23, .7);
+    border-bottom: 2px solid rgba(43, 31, 23, .7);
 
     display: flex;
     justify-content: center;
@@ -227,7 +227,7 @@ h2 {
    ========================= */
 
 section {
-    border-top: 1px solid var(--line-dark);
+    border-top: 2px solid var(--line-dark);
 
     padding: 110px max(24px, calc((100% - 1180px) / 2));
 
@@ -275,7 +275,12 @@ section h2 {
    ========================= */
 
 #game {
-    background: var(--light);
+    background-color: #6b4d38;
+    background-image: url("Background_LighterBrown.png");
+    background-size: 1000px 1000px;
+    background-position: center;
+    background-repeat: repeat;
+
     color: var(--ink);
 }
 
@@ -314,13 +319,13 @@ section h2 {
 
 .studio {
     background-color: #422e21;
-    background-image: url("Background_LighterBrown.png");
+    background-image: url("Background_DarkBrown.png");
     background-size: 1000px 1000px;
     background-position: center;
     background-repeat: repeat;
     color: var(--cream);
 
-    border-top: 1px solid var(--line-dark);
+    border-top: 2px solid var(--line-dark);
 }
 
 
@@ -368,7 +373,7 @@ footer {
 
     padding: 25px 0 35px;
 
-    border-top: 1px solid var(--line-dark);
+    border-top: 2px solid var(--line-dark);
 
     display: flex;
     justify-content: space-between;
