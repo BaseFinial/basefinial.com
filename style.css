@@ -371,22 +371,6 @@ section h2 {
 
 /* =========================
    CONTACT SECTION
-   LIGHT BROWN
-   ========================= */
-
-main > section:not(.studio) {
-   
-    background-color: #422e21;
-    background-image: url("Background_LighterBrown.png");
-    background-size: 1000px 1000px;
-    background-position: center;
-    background-repeat: repeat;
-    color: var(--cream);
-    
-    align-items: center;
-}
-/* =========================
-   CONTACT SECTION
    ========================= */
 
 .contact {
@@ -429,7 +413,6 @@ main > section:not(.studio) {
     color: var(--ink);
     text-align: center;
 }
-
 /* =========================
    FOOTER
    DARK BROWN
