@@ -402,6 +402,7 @@ main > section:not(.studio) {
 
 .contact .body {
     font-size: 20px;
+    text-align: center;
 }
 
 /* =========================
