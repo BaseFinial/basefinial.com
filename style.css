@@ -115,6 +115,11 @@ nav a {
     font-size: 18px;
     letter-spacing: .16em;
 }
+    
+nav .nav-contact {
+    left: 0;
+    right: auto;
+}
 
 nav a:hover {
     color: var(--cream);
