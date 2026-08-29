@@ -313,7 +313,11 @@ section h2 {
    ========================= */
 
 .studio {
-    background: var(--dark);
+    background-color: #422e21;
+    background-image: url("Background_DarkBrown.png");
+    background-size: 1000px 1000px;
+    background-position: center;
+    background-repeat: repeat;
     color: var(--cream);
 
     border-top: 1px solid var(--line-dark);
