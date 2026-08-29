@@ -98,34 +98,47 @@ nav {
 
 nav strong {
     font-size: 38px;
+    font-weight: 700;
     letter-spacing: .16em;
     color: var(--dark-3);
 }
 
 
-/* GLARING FLAW link */
+/* NAVIGATION LINKS */
 
 nav a {
     position: absolute;
-    right: 0;
 
     color: var(--dark-3);
     text-decoration: none;
 
-    font-size: 18px;
+    font-size: 22px;
+    font-weight: 700;
     letter-spacing: .16em;
+
+    transition: color .15s ease;
 }
-    
+
+
+/* CONTACT — LEFT */
+
 nav .nav-contact {
     left: 0;
-    right: auto;
 }
+
+
+/* GLARING FLAW — RIGHT */
+
+nav a[href="#game"] {
+    right: 0;
+}
+
+
+/* HOVER */
 
 nav a:hover {
     color: var(--cream);
 }
-
-
 /* =========================
    HERO CONTENT
    ========================= */
